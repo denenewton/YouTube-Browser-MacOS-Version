@@ -1,0 +1,31 @@
+# --- Xcode ---
+# Arquivos de usuário e caches de build
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Configurações pessoais do Xcode
+xcuserdata/
+
+# --- macOS ---
+# Arquivos de sistema do Finder
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# --- Swift Package Manager ---
+# Caso você adicione dependências no futuro
+.build/
+.swiftpm/
+
+# --- Logs ---
+*.log
+
+# --- Outros ---
+# Se você usar arquivos de ambiente ou segredos
+.env
+
