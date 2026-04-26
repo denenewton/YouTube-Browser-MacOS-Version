@@ -22,6 +22,10 @@ struct WebView: NSViewRepresentable {
         // Opcional: Melhora a experiência de navegação no Mac
         webView.allowsBackForwardNavigationGestures = true
         
+        // --- HABILITA O ZOOM PELO TRACKPAD (Pinch) ---
+        webView.allowsMagnification = true
+        webView.allowsBackForwardNavigationGestures = true
+        
         return webView
     }
 
